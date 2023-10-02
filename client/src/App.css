@@ -1,0 +1,188 @@
+.home-page{
+  width: 60%;
+  margin: 20px auto;
+  padding: 20px;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 0 10px #ccc;
+}
+
+.home-page .home-h1{
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.home-page .home-p{
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.home-page .home-input{
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.home-page .home-btn{
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  background-color: #00ba2e;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 300;
+  color: #fff;
+}
+
+.home-page .home-btn:hover{
+  background-color: #00a22e;
+}
+
+.room-page{
+  width: 80%; 
+  margin: 20px auto;
+  padding: 20px;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 0 10px #ccc;
+}
+
+.room-page .room-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.room-page .room-title{
+  font-size: 30px;
+  font-weight: 300;
+  text-align: left;
+}
+
+.room-page .room-id{
+  font-weight: 400;
+}
+
+.room-page .room-link{
+  font-size: 30px;
+  color: #00ba2e;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.room-page .room-link:hover{
+  color: #00a22e;
+}
+
+.room-page .room-messages{
+  display: flex;
+  gap: 10px;
+   
+}
+
+.room-page .room-messages input{
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.room-page .room-messages button{
+  width: 50%;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  background-color: #00ba2e;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 300;
+  color: #fff;
+}
+
+.room-page .room-messages button:hover{
+  background-color: #00a22e;
+}
+
+.room-page .room-messages-area{
+  width: 100%;
+  height: 500px;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  overflow-y: scroll;
+  background-color: #f0f0f0;
+}
+
+.room-page .room-message {
+  width: 70%;
+  float: right;
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+  border-radius: 20px 20px 0 20px;
+  text-align: left;
+  margin: 5px 0;
+}
+
+.room-page .room-message .room-message-user {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.room-page .room-message .room-message-text {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.room-page .room-message .room-message-time {
+  font-size: 13px;
+  font-weight: 300;
+  text-align: right;
+}
+
+
+.room-page .room-message-other {
+  width: 70%;
+  float: left;
+  background-color: #aafe86;
+  padding: 10px;
+  border-radius: 20px 20px 20px 0px;
+  text-align: left;
+  margin: 5px 0;
+}
+
+.room-page .room-message-other .room-message-user {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.room-page .room-message-other .room-message-text {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.room-page .room-message-other .room-message-time {
+  font-size: 13px;
+  font-weight: 300;
+  text-align: right;
+} 
+
